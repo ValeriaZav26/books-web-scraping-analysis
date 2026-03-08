@@ -47,13 +47,6 @@ The dataset contains information about approximately **1000 books**, including:
 
 ---
 
-## 📈 Notebook
-Full analysis is available in the Google Colab notebook:
-
-*(insert Colab link here)*
-
----
-
 ## 📚 Skills Demonstrated
 - Web Scraping  
 - Data Cleaning  
