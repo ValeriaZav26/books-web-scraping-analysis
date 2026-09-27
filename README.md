@@ -168,34 +168,4 @@ seaborn
 
 ---
 
-## 🔧 Possible Improvements
 
-- Add retry logic with exponential backoff for production-grade resilience against transient network errors.
-- Add `logging` instead of `print` for better observability on scheduled runs.
-- Validate scraped records with a schema library (e.g. `pydantic`) to catch malformed data early.
-- Store results in a database (e.g. SQLite/PostgreSQL) instead of CSV to support incremental runs and historical price tracking.
-- Parallelize page requests with `concurrent.futures` or `asyncio`/`httpx` to speed up large-scale crawls.
-
----
-
-## ⚖️ Ethics & Legal Notes
-
-This project scrapes [books.toscrape.com](http://books.toscrape.com/), a website **explicitly created for scraping practice** with no restrictions on automated access. When adapting this code for other sites, always:
-
-- Check the site's `robots.txt` and Terms of Service.
-- Respect rate limits and avoid excessive request volume.
-- Only collect publicly available, non-personal data.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙋 Author
-
-Built as a portfolio project to demonstrate web scraping (BeautifulSoup), data cleaning, and exploratory data analysis skills in Python.
-
-Feel free to ⭐ the repo if you found it useful!
